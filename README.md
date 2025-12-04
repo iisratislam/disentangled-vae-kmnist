@@ -16,6 +16,7 @@ The project demonstrates how introducing a weighting parameter ($\beta$) to the 
 3.  **Latent Arithmetic**: Demonstrates the continuity of the latent space by "morphing" one Japanese character into another via vector interpolation.
 
 ## 📊 Results
+![Morphing Result](morphing_result.png)
 The notebook generates two primary visualizations:
 1.  **Latent Manifold**: A 2D scatter plot showing the clustering of distinct character classes.
 2.  **Morphing Grid**: A visualization of the transition between character classes, proving the model has learned the structural geometry of the strokes.
