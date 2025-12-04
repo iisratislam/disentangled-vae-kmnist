@@ -4,7 +4,7 @@ This repository contains a tutorial and implementation of a **Disentangled Varia
 
 Unlike standard MNIST (digits), KMNIST consists of ancient Japanese cursive calligraphy. This project demonstrates how introducing a weighting parameter ($\beta$) to the KL-Divergence term allows the model to learn the *geometry* of handwriting strokes rather than just memorizing pixels.
 
-## 🎨 Visual Results
+## Visual Results
 The model learns a continuous latent manifold, allowing us to "morph" one Japanese character into another. This proves the model understands the structural stroke data.
 
 ![Latent Space Morphing](morphing_result.png)
@@ -17,7 +17,7 @@ The model learns a continuous latent manifold, allowing us to "morph" one Japane
     * Latent space visualization and interpolation experiments.
 * **`requirements.txt`**: List of dependencies required to run the code.
 
-## 🚀 Key Technical Features
+## Key Technical Features
 ### 1. The Beta-VAE Loss Function
 We modify the standard Evidence Lower Bound (ELBO) loss function to aggressively enforce the Gaussian prior.
 The formula used is:
